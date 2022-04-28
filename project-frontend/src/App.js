@@ -36,7 +36,7 @@ function App() {
     <Card
       key={card.id}
       color={card.color}
-      buttonName={"Learn more"}
+      buttonName={"Learn More"}
       cardDescription={card.cardDescription}
       cardName={card.cardName}
       logo={card.logo}

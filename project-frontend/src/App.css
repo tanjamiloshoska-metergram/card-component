@@ -25,12 +25,13 @@ h1 {
 .flexbox-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .btn {
   width: 120px;
   height: 35px;
-  border: 0ch;
   border-radius: 25px;
+  border: 0px;
   background-color: hsl(0, 0%, 95%);
 }

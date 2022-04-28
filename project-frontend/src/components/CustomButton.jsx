@@ -1,6 +1,11 @@
 const CustomButton = ({ name, textColor }) => {
   return (
-    <button className="btn" style={{ color: textColor }}>
+    <button
+      className="btn"
+      style={{
+        color: textColor,
+      }}
+    >
       {name}
     </button>
   );
