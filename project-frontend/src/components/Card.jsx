@@ -1,5 +1,5 @@
-import CardBody from "./CardBody";
-import CustomButton from "./CustomButton";
+import CardButton from "./CardButton";
+import "../styles/CardStyle.css";
 
 const Card = ({ cardName, cardDescription, buttonName, color, logo }) => {
   return (
@@ -13,10 +13,9 @@ const Card = ({ cardName, cardDescription, buttonName, color, logo }) => {
       }}
     >
       <img src={logo} alt={cardName} />
-      <CardBody name={cardName} description={cardDescription} />
-      <br />
-      <br />
-      <CustomButton name={buttonName} textColor={color} />
+      <h1>{cardName.toUpperCase()}</h1>
+      <p>{cardDescription}</p>
+      <CardButton name={buttonName} textColor={color} />
     </div>
   );
 };

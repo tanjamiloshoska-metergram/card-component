@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+body {
+  font-size: 15px;
+  text-align: left;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

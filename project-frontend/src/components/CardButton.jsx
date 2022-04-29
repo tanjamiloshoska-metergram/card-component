@@ -1,4 +1,4 @@
-const CustomButton = ({ name, textColor }) => {
+const CardButton = ({ name, textColor }) => {
   return (
     <button
       className="btn"
@@ -11,4 +11,4 @@ const CustomButton = ({ name, textColor }) => {
   );
 };
 
-export default CustomButton;
+export default CardButton;
