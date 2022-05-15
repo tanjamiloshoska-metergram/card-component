@@ -4,10 +4,15 @@
 body {
   font-size: 15px;
   text-align: left;
+  padding: 0px;
+  margin: 0px;
 }
 
 .flexbox-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }

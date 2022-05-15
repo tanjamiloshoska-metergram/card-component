@@ -1,0 +1,20 @@
+.cardDescription {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 20px;
+  font-size: small;
+  font-family: "Lexend Deca", sans-serif;
+  word-spacing: 4px;
+  margin-bottom: 60px;
+}
+
+.cardTitle {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+.cardWrapper {
+  padding: 35px;
+  width: 200px;
+  height: 350px;
+  border-radius: 5px;
+}
